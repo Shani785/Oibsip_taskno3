@@ -1,0 +1,146 @@
+body{
+    padding: 10px;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(137, 255, 255);
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+input{
+    border: 2px solid aqua;
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 400px;
+    border-radius: 200px;
+
+}
+h1{
+    color: rgb(6, 58, 58);
+}
+.btn{
+    margin: 0px 12px;
+    background: rgb(0, 0, 73);
+    color: bisque;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+}
+.btn:hover{
+    background: rgb(0, 56, 56);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.complete{
+    margin: 0px 6px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 73);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+.complete:hover{
+    margin: 0px 6px;
+    background: rgb(14, 170, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+    margin-left: 20px;
+
+}
+.edit{
+    margin: 0px 6px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 73);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+}
+.edit:hover{
+    margin: 0px 6px;
+    background: rgb(0, 3, 170);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+}
+.delete{
+    margin: 0px 6px;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+}
+.delete:hover{
+    margin: 0px 6px;
+    background: rgb(199, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 200px;
+}
+#pendingTasks{
+    font-size: 20px;
+}
+#completedTasks{
+    font-size: 20px;
+}
